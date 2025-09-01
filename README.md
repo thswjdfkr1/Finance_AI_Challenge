@@ -6,7 +6,7 @@
 
 # QADataset 생성과정 : 		 		   
 1. Load           
-      과제에 적합한 PDFReader 선택
+      # 과제에 적합한 PDFReader 선택
 
   PDF 문서 로딩을 위해 PyPdfReader를 사용하여 문서를 처리합니다. 이때, 불필요한 요소들이 포함된 문서도 존재하므로 이를 처리하는 과정이 중요
 

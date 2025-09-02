@@ -63,7 +63,7 @@ BM25 스코어 + FAISS 유사도 점수를 결합하여 특정 임계치(Thresho
 # 추론
 
 ## LLM 파인튜닝   
-1. 모델 및 토크나이저 설정
+1. 모델 및 토크나이저 설정   
       model_name = 'LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct'
       model = AutoModelForCausalLM.from_pretrained(
           model_name,

@@ -50,13 +50,13 @@
 
 ### BM25 색인 저장    
 
-      BM25 Retriever를 활용하여 키워드 기반 색인을 생성     
-      이를 통해 특정 키워드가 포함된 문서를 빠르게 검색할 수 있음      
+   BM25 Retriever를 활용하여 키워드 기반 색인을 생성     
+   이를 통해 특정 키워드가 포함된 문서를 빠르게 검색할 수 있음      
 
 ### FAISS 벡터 저장     
 
-      문서를 **SentenceTransformer("sentence-transformers/all-mpnet-base-v2")**를 사용하여 벡터로 변환     
-      변환된 벡터를 FAISS Retriever에 저장하여 의미적 유사성을 활용한 검색이 가능하도록 합니다. 임계치(Threshold) 기반 문서 필터링     
+   문서를 **SentenceTransformer("sentence-transformers/all-mpnet-base-v2")**를 사용하여 벡터로 변환     
+   변환된 벡터를 FAISS Retriever에 저장하여 의미적 유사성을 활용한 검색이 가능하도록 합니다. 임계치(Threshold) 기반 문서 필터링     
       
 BM25 스코어 + FAISS 유사도 점수를 결합하여 특정 임계치(Threshold) 이상인 문서만 저장      
 이 과정을 통해 불필요한 문서를 걸러내고, 문제와 유의미한 문서만 보관      

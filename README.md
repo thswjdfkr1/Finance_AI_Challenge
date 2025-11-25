@@ -10,7 +10,6 @@
 - Transformer
 - Open LLM(LGAI-EXAONE, SKT-A.X)
 - Fine-Tunning
-- LoRA
 - BM25/FAISS, Retriever
 - Prompt_Engineering     
 

@@ -5,7 +5,7 @@
 금융보안 실무에 적합한 개발 방법론 및 AI 모델을 발굴하기 위해 FSKU 평가지표를 기반으로 AI 모델의 성능을 경쟁
 
 # 사용 기술
-Python, HuggingFace, Transformer, Open LLM(LGAI-EXAONE, SKT-A.X), Fine-Tunning, LoRA, BM25/FAISS, Retriever, Prompt_Engineering   
+- Python, - HuggingFace, Transformer, Open LLM(LGAI-EXAONE, SKT-A.X), Fine-Tunning, LoRA, BM25/FAISS, Retriever, Prompt_Engineering   
 
 # QADataset 생성과정 : 		 		   
 1. Load           

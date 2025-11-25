@@ -213,3 +213,6 @@ for q in tqdm.tqdm(test['Question'], desc='Inference'):
 * fine_model.generate(**inputs, max_length=256) 주관식 문제의 경우 최대 256자 길이로 답을 생성     
 * tokenizer.decode(output_ids[0], skip_special_tokens=True) 특수 토큰을 제거하고 최종 답안을 반환     
    
+# 성과 :  
+-	정답 정확도 63% 달성, 검색-추론-생성 결합 RAG 구조로 답변 정확도 10% 향상  
+-	BaseLine 대비 정확도 약 53% 이상 개선  
